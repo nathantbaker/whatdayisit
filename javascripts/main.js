@@ -75,3 +75,4 @@ switch (dayOfWeek) {
 
 document.write(`<h2>${month.toUpperCase()} ${day}, ${year}</h2>`);
 document.write("<a href='https://www.mechanicalloom.com/'><img class='center' id='logo' alt'Mechanical Loom Logo' src='img/mechanical-loom-logo.png'/></a>");
+document.write("<a id='code' href='https://github.com/nathantbaker/whatdayisit'>code</a>");

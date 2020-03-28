@@ -27,10 +27,16 @@ h2 {
     left: 0;
 }
 
-@media only screen and (max-width: 600px) {
-    #logo {
-        width: 240px;
-    }
+#code, #code a {
+    padding: 20px;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    color: grey;
+    text-decoration: none;
+}
+
+@media only screen and (max-width: 800px) {
     body {
         padding: 10%;
     }
