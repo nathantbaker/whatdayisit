@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+
+<head>
+    <title>What day is it?</title>
+    <meta name="description" content="Learn what day of the week it is today.">
+    <link rel="icon" type="image/svg+xml" href="favicon.svg">
+    <style>
+        body {
+            background-color: #eff5f8;
+            padding: 20%;
+            color: #6099d0;
+            text-align: center;
+            font-family: Helvetica, Arial, sans-serif;
+        }
+
+        h1 {
+
+            font-weight: 100;
+            font-size: 6em;
+        }
+
+        #logo {
+            width: 120px;
+            padding: 20px;
+            position: fixed;
+            top: 0;
+            left: 0;
+        }
+
+        @media only screen and (max-width: 600px) {
+            #logo {
+                width: 240px;
+            }
+            body {
+                padding: 10%;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <script type="text/javascript">
+        const now = new Date();
+        const dayOfWeek = now.getDay();
+        switch (dayOfWeek) {
+            case 0:
+                document.write('<h1>Sunday</h1>');
+                break;
+            case 1:
+                document.write('<h1>Monday</h1>');
+                break;
+            case 2:
+                document.write('<h1>Tuesday</h1>');
+                break;
+            case 3:
+                document.write('<h1>Wednesday</h1>');
+                break;
+            case 4:
+                document.write('<h1>Thursday</h1>');
+                break;
+            case 5:
+                document.write('<h1>Friday</h1>');
+                break;
+            case 6:
+                document.write('<h1>Saturday</h1>');
+                break;
+            default:
+                document.write('<h1>Who knows...</h1>');
+                break;
+        }
+        document.write("<a href='https://www.mechanicalloom.com/'><img class='center' id='logo' alt'Mechanical Loom Logo' src='mechanical-loom-logo.png'/></a>");
+
+    </script>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-2726397-34"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'UA-2726397-34');
+    </script>
+
+</body>
+
+</html>
