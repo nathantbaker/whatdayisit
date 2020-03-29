@@ -8,6 +8,6 @@ const days = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 
 const months = ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December'];
 
 document.write(`
-    <h1>${days[dayIndex]}</h1>
+    <h1>${days[dayIndex].toUpperCase()}</h1>
     <h2>${months[monthIndex].toUpperCase()} ${day}, ${year}</h2>
 `);
