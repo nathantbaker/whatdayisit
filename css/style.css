@@ -23,6 +23,11 @@ h2 {
     margin-top: 1vw;
 }
 
+#calendar {
+    width: 2.3vw;
+    padding-right: 1vw;
+}
+
 #logo {
     width: 10vw;
     padding: 20px;
@@ -38,6 +43,7 @@ h2 {
     right: 0;
     color: #6099d0;
     text-decoration: none;
+    font-size: 1.5vw;
 }
 
 .background {
@@ -46,6 +52,8 @@ h2 {
 }
 
 @media only screen and (max-width: 1000px) {
-    #logo {width: 25vw;}
-    h2 {font-size: 4.5vw;}
+    #logo {width: 25vw; padding: 40px}
+    h2 {font-size: 4.5vw; color: #626873;}
+    #code, #code a {padding: 40px; font-size: 4vw;}
+    #calendar {width: 3.5vw;}
 }

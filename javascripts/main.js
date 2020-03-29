@@ -9,5 +9,5 @@ const months = ['January', 'February', 'March', 'April', 'May', 'June', 'July', 
 
 document.write(`
     <h1>${days[dayIndex].toUpperCase()}</h1>
-    <h2>${months[monthIndex].toUpperCase()} ${day}, ${year}</h2>
+    <h2><img id='calendar' src="img/favicon.svg" alt="calendar" />${months[monthIndex].toUpperCase()} ${day}, ${year}</h2>
 `);
